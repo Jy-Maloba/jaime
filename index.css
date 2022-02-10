@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.menu li a:hover {
+    background-color: #23cdaf;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(red 24, green 139, blue 119, alpha 0.2);
+    transition: all ease 0.2s;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-one {
+    padding: 10px;
+}
+
+#content-one .nav {
+    background-color: rgba(55, 55, 255, 0.5);
+    color: white;
+    width: 200px;
+    float: left;
+    height: 600px;
+    text-align: center;
+    align-items: flex-end;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+}
+
+#content-one .main-one {
+    text-align: left;
+    background-color: white;
+    background-blend-mode: color;
+    float: right;
+    width: 600px;
+    height: 600px;
+    color: black;
+    padding: 5px
+}
+
+.photo {
+    text-align: left;
+    width: 150px;
+    float: left;
+}
+
+.main-one .para {
+    float: right;
+    width: 435px;
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    align-items: right;
+    color: white;
+}
+
+.nav.btn {
+    align-items: flex-end;
+    text-align: left;
+}
+
+.btn .d-btn {
+    background-color: red;
+}
+
+.btn .m-btn {
+    background-color: red;
+}
